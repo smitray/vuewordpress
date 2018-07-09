@@ -13,9 +13,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueLazyload from 'vue-lazyload'
 
-import BootstrapVue from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+// import BootstrapVue from 'bootstrap-vue'
+// import 'bootstrap/dist/css/bootstrap.css'
+// import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import router from './router'
 // import { auth, database } from './firebase.config.js' - Uncomment if you need firebase
@@ -24,7 +24,7 @@ import store from './store'
 import * as types from './store/mutation-types'
 
 Vue.use(VueLazyload)
-Vue.use(BootstrapVue)
+// Vue.use(BootstrapVue)
 
 router.afterEach((to, from) => {
   // Add a body class specific to the route we're viewing
